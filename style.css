@@ -1,0 +1,72 @@
+
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:14px;
+    color:hsl(0, 0%, 100%);
+    
+}
+
+section{
+   
+  
+    background-color:hsl(207, 26%, 17%);
+    
+}
+
+
+
+#region{
+    margin-top:20px;
+    font-size:12px;
+}
+#search,.select_region{
+    
+    font-size:12px;
+    background-color:hsl(209, 23%, 22%);
+    border:none;
+    color:hsl(0, 0%, 100%);
+    padding:10px;
+    text-align:center;
+    border-radius:5px;
+ 
+}
+#search{
+    margin-top:20px;
+}
+
+.col-12{
+   
+    margin-bottom:25px;
+    
+}
+.second{
+    margin-top:40px;
+}
+.germany{
+    width:150px;
+    margin:0 auto;
+    background-color:hsl(209, 23%, 22%);
+    border-radius:5px;
+}
+.germany img{
+    height:100px;
+    width:100%;
+}
+.flag_detail{
+    margin:10px auto;
+    padding:10px;
+    
+}
+.heading{
+    font-size:14px;
+    color:hsl(0, 0%, 100%);
+    font-weight:600;
+    margin-bottom:10px;
+}
+.heading ~ p{
+    font-size:10px;
+    color:hsl(0, 0%, 100%);
+    margin-bottom:0px;
+    letter-spacing:0.5px;
+}
