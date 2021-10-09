@@ -15,39 +15,18 @@ section{
 }
 
 
-
-#region{
-    margin-top:20px;
-    font-size:12px;
-}
-#search,.select_region{
-    
-    font-size:12px;
-    background-color:hsl(209, 23%, 22%);
-    border:none;
-    color:hsl(0, 0%, 100%);
-    padding:10px;
-    text-align:center;
-    border-radius:5px;
- 
-}
-#search{
-    margin-top:20px;
-}
-
 .col-12{
    
     margin-bottom:25px;
     
 }
-.second{
-    margin-top:40px;
-}
+
 .germany{
     width:150px;
-    margin:0 auto;
+    margin:40px auto;
     background-color:hsl(209, 23%, 22%);
     border-radius:5px;
+    overflow: hidden;
 }
 .germany img{
     height:100px;
@@ -69,4 +48,51 @@ section{
     color:hsl(0, 0%, 100%);
     margin-bottom:0px;
     letter-spacing:0.5px;
+}
+
+@media(min-width:400px) {
+    .germany{
+        width:200px;
+    }
+    .germany img{
+        height:130px;
+        width:100%;
+    }
+   
+}
+@media(min-width:576px) {
+    .heading{
+        font-size:16px;
+    }
+    .heading ~ p{
+        font-size:12px;
+       
+    }
+
+}
+@media(min-width:768px) {
+
+    .germany{
+        width:150px;
+    }
+    .germany img{
+        height:100px;
+        width:100%;
+    }
+
+
+
+}
+@media(min-width:990px) {
+
+    .germany{
+        width:200px;
+    }
+    .germany img{
+        height:130px;
+        width:100%;
+    }
+
+
+
 }
